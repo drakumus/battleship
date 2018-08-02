@@ -132,7 +132,7 @@ function randomPosition(usedPositions)
   var iter = 0;
   while(usedPositions.indexOf(position) > -1)
   {
-      = getRandomInt(100);
+    position = getRandomInt(100);
     iter++;
     if(iter > 100)
     {
